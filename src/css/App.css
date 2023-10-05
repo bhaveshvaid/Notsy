@@ -1,0 +1,53 @@
+#root {
+  margin: 0;
+  padding: 0rem;
+  text-align: center;
+  font-family:  'papyrus',fantasy;
+  font-weight: 600;
+  /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  /* display: flex; */
+  /* box-sizing: border-box; */
+}
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.light-mode{
+  padding:2rem;
+  min-height:100vh;
+  /* overflow-y: scroll; */
+}
+.dark-mode{
+  background-color: #151515;
+  padding: 2rem;
+  margin:0;
+  /* box-sizing: border-box; */
+}
+.dark-mode h1{
+  color: rgb(220,220,220);
+}
+.dark-mode .search{
+  background-color: #cccccc;
+}
+.dark-mode .search input{
+  background-color: #cccccc;
+}
+.dark-mode .note{
+  background-color: rgb(50, 50, 50);
+  color: #cccccc;
+}
+.dark-mode .note.new{
+  background-color: rgb(70, 70, 125);
+}
+.dark-mode .note.new textarea{
+  background-color: rgb(70, 70, 125);
+  color: #cccccc;
+}
+.dark-mode .note.new textarea::placeholder{
+  color: #cccccc55;
+}
+.dark-mode .header button{
+  background-color: #cccccc;
+}
