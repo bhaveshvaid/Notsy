@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     const savedNotes = JSON.parse(localStorage.getItem("notes-list"));
     // console.log('hook working');
-    if (savedNotes.length) {
+    if (savedNotes && savedNotes.length) {
       // console.log('data present')
       setNotes(savedNotes);
     }
