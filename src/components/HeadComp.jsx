@@ -18,7 +18,7 @@ const HeadComp = ({handleToggler}) => {
   }
   return (
     <div className='header'>
-        <h1><span><img src="../../public/R.png" height={'70em'} alt="notsy-logo" /></span>Notsy</h1>
+        <h1><span><img src="R.png" height={'70em'} alt="notsy-logo" /></span>Notsy</h1>
         <button className='toggler' onClick={handleTogglerClick}><MdDarkMode className= {`${lightmode===false&& 'd-none'}`} size='1.3em'/>
         <MdOutlineDarkMode className= {`${lightmode===true&& 'd-none'}`} size='1.3em'/></button>
     </div>
